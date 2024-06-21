@@ -1,7 +1,6 @@
-print("Enter your monthly income:")
-monthly_income = input()
-print("Enter your total  monthly expenses:")
-total_monthly_expenses = input()
+monthly_income = input("Enter your monthly income: ")
+
+total_monthly_expenses = input("Enter your total  monthly expenses: ")
 
 monthly_savings = int(monthly_income) - int(total_monthly_expenses)
 print(f"Your monthly savings is ${monthly_savings}.") 
