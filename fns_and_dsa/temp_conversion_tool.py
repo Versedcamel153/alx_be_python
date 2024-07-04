@@ -23,3 +23,5 @@ if is_c_or_f == 'c':
     convert_to_fahrenheit(celsius=tempertaure)
 elif is_c_or_f == 'f':
     convert_to_celsius(fahrenheit=tempertaure)
+else:
+    print("Invalid temperature. Please enter a numeric value.")
