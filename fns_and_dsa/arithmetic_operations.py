@@ -1,4 +1,4 @@
-def perform_operation(num1, num2, operation=('add', 'substract', 'multiply', 'divide')):
+def perform_operation(num1, num2, operation=('add', 'subtract', 'multiply', 'divide')):
     
     if operation=='add':
         result = num1 + num2
