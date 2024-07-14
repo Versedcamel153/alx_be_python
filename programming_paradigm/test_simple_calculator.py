@@ -15,7 +15,7 @@ class TestCalculator(unittest.TestCase):
     def test_multiplication(self):
         self.assertEqual(self.calc.multiply(5, 10), 50)
 
-    def text_division(self):
+    def test_division(self):
         self.assertEqual(self.calc.divide(20, 10), 2)
 
     def test_divide_by_zero(self):
