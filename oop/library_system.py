@@ -8,7 +8,7 @@ class Book:
 
 class EBook(Book):
     def __init__(self, title: str, author: str, file_size: float):
-        super().__init__(author, title)
+        super().__init__(title, author)
         self.file_size = file_size
     
     def __str__(self) -> str:
